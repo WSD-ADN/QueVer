@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Que Ver?</title>
+    <link rel="shortcut icon" type="image/png" href="favicon_64_2.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
@@ -162,17 +163,20 @@
       
       <div class="contenedor">
         <div class="form-wrapper">
-          <h2 class="">Envía tu isekai </h2>
+          <h2>Envía tu isekai</h2>
           <img src="img/posicion3hover.png" alt="Imagen de fondo">
           <form>
             <label for="name"></label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" required>
+            <span id="error-message"></span>
             <br>
             <button type="submit">Enviar</button>
           </form>
+          <img src="img/msjenviado.png" alt="Mensaje enviado" class="enviado">
         </div>
-        
       </div>
+      
+      
       
       <div class="border-container">
         <div class="wrapper">
@@ -201,5 +205,6 @@
       
       <script src="script.js"></script>
       <script src="carrucel.js"></script>
+      <script src="form.js"></script>
 </body>
 </html>

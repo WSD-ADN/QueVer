@@ -717,8 +717,21 @@ footer {
   font-size: 1.4rem;
 }
 
+
+.enviado {
+  display: none;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.mostrar {
+  display: block;
+}
+
 .container {
-  
   margin: 0 auto;
   text-shadow: 1px 1px var(--negro);
 }
